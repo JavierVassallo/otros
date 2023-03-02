@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+/*import Effect from "./componentes/effect";
+import Estado from "./componentes/estado";
+import HolaNombre from "./componentes/propio";*/
+import ListaTareas from "./ejercicio4";
+import FormPrueba from "./forms";
 
 function App() {
+  /* const nombre = "javier";
+  const login = false;
+  const handleFunction = () => {
+    alert("me ejecute");
+  };*/
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<HolaNombre name={nombre} isLogin={login} />
+
+      <Estado countProps={2} funcion={handleFunction} />
+
+      <Effect />*/}
+      {/*<div style={{ marginTop: "5vh" }}>
+        <ListaTareas />
+    </div>*/}
+
+      <FormPrueba />
     </div>
   );
 }
